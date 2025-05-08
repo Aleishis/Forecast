@@ -4,14 +4,24 @@
  */
 package mx.itson.grasshopper.enums;
 
+import com.google.gson.annotations.SerializedName;
+import javax.print.attribute.standard.MediaSize;
+
 /**
  *
  * @author alelo
  */
 public enum WheaterStatus {
     
+    @SerializedName("0")
+    OTHER,
+    @SerializedName("1")
     SUNNY,
+    @SerializedName("2")
     SNOW,
-    CLODUY
+    @SerializedName("3")
+    CLOUDY,
+    @SerializedName("4")
+    RAINY
     
 }
