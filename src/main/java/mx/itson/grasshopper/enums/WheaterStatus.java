@@ -5,7 +5,6 @@
 package mx.itson.grasshopper.enums;
 
 import com.google.gson.annotations.SerializedName;
-import javax.print.attribute.standard.MediaSize;
 
 /**
  *
